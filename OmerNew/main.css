@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    
+}
+.learn{
+    text-decoration: none;
+    color: white;
+}
+.learn:hover{
+    text-decoration: underline; 
+    translate: 3s;
+    color: white;
+}
+.img{
+    box-shadow: 0 0 5px #efefef;
+    display: inline-block;
+    
+}
+.i{
+    display: inline-block;
+}
+.tex{
+    background-image: linear-gradient(135deg, white 0%, white 100%) 
+           
+}
+#header{
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+    height: 100vh;
+}
+#header nav a{
+    color: white;
+}
+#header nav li ul a{
+    color: black;
+}
+.hcontent .col-lg-6{
+    margin-top:100px;
+}
+.hcontent h1{
+    font-size: 40px;
+    color: white;
+}
+.hcontent p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.hcontent button{
+    padding:10px 25px;
+}
+.hcontent .btn-none{
+    color: white;
+    font-weight: 500;
+}
+.hcontent .btn-none:hover{
+    text-decoration: underline;
+}
+#header svg{
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    
+}
+#h svg{
+    height: 70px;
+    width: 100%;
+}
+.navbar-marketing.navbar-dark.navbar-scrolled{
+    height: 80px;
+} 
+@media (max-width: 1300px) {
+    .navbar-marketing.navbar-dark.navbar-scrolled {
+        background-color: #212832 !important;
+        height: 80px;
+    } 
+}
+#ss{
+    margin-top: -80px; background: white; width: 500px; height: 150px; border: 1px solid #afafaf
+}
+@media (max-width: 1100px) {
+    #ss{
+        margin-top: 50px;
+        
+    }
+    #dd{
+        width: 2500px;
+    }
+}
+@media(max-width: 1200px){
+    #ss{  
+        margin-top: 50px;
+    }
+}
+@media (max-width: 900px){
+    #div{
+       display: flow-root;
+    }
+}
+.div{
+    display: flex;   
+}
+@media (max-width: 1400px){
+    #z{
+        width: 425px;  
+    }
+}
